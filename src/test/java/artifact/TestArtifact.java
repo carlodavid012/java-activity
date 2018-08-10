@@ -6,6 +6,8 @@ import org.junit.Test;
 import com.ayannah.artifact.Chess;
 import com.ayannah.artifact.MyCalculation;
 import com.ayannah.artifact.Name;
+import com.ayannah.artifact.Rectangle;
+import com.ayannah.artifact.Student;
 import com.ayannah.artifact.TestClass;
 
 public class TestArtifact {
@@ -45,10 +47,19 @@ public class TestArtifact {
 		Name name = new Name();
 		System.out.println(name.getName());
 		System.out.println(name.getAge());
-		
-
 	}
 	
+	@Test
+	public void test6() {
+		Student s = new Student();
+		
+	}
+	
+	@Test
+	public void test7() {
+		Rectangle rec = new Rectangle();
+		rec.print();
+	}
 	
 	
 }
